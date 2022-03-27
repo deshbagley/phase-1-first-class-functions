@@ -3,8 +3,8 @@ function receivesAFunction (myCallback) {
     return 5;
 }
 function returnsANamedFunction(){
-    function myCallback(){console.log("Desh")}
-return myCallback
+    function simpleFunc(){console.log("Desh")}
+return simpleFunc
 }
 
 function returnsAnAnonymousFunction(){
